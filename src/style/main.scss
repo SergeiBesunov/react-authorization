@@ -1,0 +1,47 @@
+@import "./variables";
+@import "./normalize";
+@import "./all";
+
+
+.wrapper{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.main{
+    position: relative;
+    flex: 1 0 auto;
+}
+
+.container{
+    padding: 0 15px;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    @media(max-width: 500px){
+        padding: 0 10px;
+     }
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 0px 15px;
+ }
+
+ .body--hidden{
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+
+
+

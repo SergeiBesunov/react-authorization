@@ -1,0 +1,110 @@
+.form-auth{
+    position: relative;
+    border: 1px solid rgb(168, 168, 168);
+    border-radius: 5px;
+    padding: 20px 60px;
+    font-size: 16px;
+
+    @media(max-width: 420px){
+        padding: 20px 15px;
+    }
+}
+
+.form-auth-title{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.form-auth__item{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+
+.textfield-wrapper{
+    position: relative;
+}
+
+.textfield-pass-hidden{
+    position: absolute;
+    z-index: 5;
+    padding: 6px 0px 6px 0px;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.textfield{
+    width: 100%;
+    border-bottom: 1px solid black;
+    padding: 6px;
+    background-color: inherit;
+    font-size: inherit;
+    margin-bottom: 6px;
+    transition: all 0.2s ease 0s;
+    
+    &:focus{
+        background-color: rgba(220, 220, 255, 0.219)
+    }
+
+}
+
+.textfield-error{
+    font-size: 12px;
+    color: red;
+}
+
+.form-auth-button{
+    background-color: rgb(220, 220, 255);
+    padding: 8px;
+    width: 100%;
+    border-radius: 6px;
+    transition: all 0.2s ease 0s;
+
+    &:hover{
+        background-color: rgb(191, 191, 255);
+    }
+}
+
+.form-auth-button-guest{
+    margin-top: 10px;
+}
+
+.form-auth-switch{
+    display: block;
+    font-size: 12px;
+    margin: 15px 0px 5px 0px;
+    color: rgba(1, 1, 192, 0.822) !important;
+    font-weight: 500;
+
+    &:hover{
+        text-decoration: underline;
+    }
+}
+
+.form-label-avatar{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.form-auth-avatar{
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    @extend %base-shadow;
+    border-radius: 50%;
+    background-color: rgb(247, 249, 255);
+    transition: all 0.2s ease 0s;
+
+   &:hover{
+    @extend %hover-shadow-on-avatar;
+   }
+   
+
+   img{
+        width: 80%;
+        object-fit: cover;
+   }
+}
