@@ -1,4 +1,4 @@
-__Авторизация в React-приложении с Firebase__ - [Demo](https://sergeibesunov.github.io/tvoi-provider/)
+__Авторизация в React-приложении с Firebase__ - [Demo](https://sergeibesunov.github.io/react-authorization/)
 
 Регистрация и авторизация через Google Firebase в React-приложении:
 - регистрация нового пользователя
