@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-authorization/static/css/main.075fe83a.css",
-    "main.js": "/react-authorization/static/js/main.1e773bea.js",
+    "main.css": "/react-authorization/static/css/main.c83072d1.css",
+    "main.js": "/react-authorization/static/js/main.2d02b28d.js",
     "static/media/eye.svg": "/react-authorization/static/media/eye.0294b1228c13ec88aa5b36fa57e85d4d.svg",
     "static/media/eye1.svg": "/react-authorization/static/media/eye1.d08b81ef540115d9eb280bdb5fbe99ad.svg",
     "index.html": "/react-authorization/index.html",
     "static/media/close.svg": "/react-authorization/static/media/close.8b593ee2c7617314063387fa29f7f5ed.svg",
-    "main.075fe83a.css.map": "/react-authorization/static/css/main.075fe83a.css.map",
-    "main.1e773bea.js.map": "/react-authorization/static/js/main.1e773bea.js.map"
+    "main.c83072d1.css.map": "/react-authorization/static/css/main.c83072d1.css.map",
+    "main.2d02b28d.js.map": "/react-authorization/static/js/main.2d02b28d.js.map"
   },
   "entrypoints": [
-    "static/css/main.075fe83a.css",
-    "static/js/main.1e773bea.js"
+    "static/css/main.c83072d1.css",
+    "static/js/main.2d02b28d.js"
   ]
 }
